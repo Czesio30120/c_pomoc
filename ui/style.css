@@ -1,0 +1,87 @@
+body, html
+{
+    font-family: 'Poppins', sans-serif;
+    background-color: transparent;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    user-select: none;
+    overflow: hidden;
+}
+
+.container {
+    width: 800px;
+    height: 500px;
+    background-color: rgba(0, 0, 0, 0.808);
+    border-radius: 10px;
+    position: absolute;
+    display: none;
+    align-items: center;
+    box-shadow: 0 0 10px 4px #53d900;
+}
+
+.gora-gufno {
+    position: absolute;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.gora-gufno::after {
+    width: 80%;
+    height: 10px;
+    display: block;
+    background-color: #53d900;
+    content: ' ';
+    position: absolute;
+    bottom: 0;
+    border-radius: 3px;
+    box-shadow: 0 0 5px #53d900;
+}
+
+.hotnapis {
+    color: white;
+    font-size: 42px;
+    font-weight: bolder;
+    text-shadow: 0 0 5px #53d900;
+    position: absolute;
+}
+
+.wypierdalaj {
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    right: 0;
+    margin-right: 30px;
+    transition-duration: 0.1s;
+}
+
+.wypierdalaj:active {
+    color: red;
+}
+
+.niggerjedendwatrzyez {
+    position: absolute;
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.tekst {
+    width: 80%;
+    height: 100%;
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    letter-spacing: 1px;
+    word-spacing: 5px;
+    font-weight: bolder;
+}
